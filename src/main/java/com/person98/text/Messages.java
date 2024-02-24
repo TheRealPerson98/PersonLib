@@ -17,11 +17,4 @@ public class Messages {
                 .append(Component.newline()) // For a new line
                 .build();
     }
-
-    public static Component getSupport() {
-        return Component.text()
-                .append(Component.text("Support at ", NamedTextColor.WHITE))
-                .append(Component.text("https://discord.gg/person98", NamedTextColor.BLUE, TextDecoration.UNDERLINED))
-                .build();
-    }
 }
